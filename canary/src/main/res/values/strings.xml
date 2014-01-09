@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Canary</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Settings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_edit_servers">Edit servers</string>
+    <string name="action_status">Minecraft status</string>
+    <string name="add_server">Add server</string>
+
+    <!-- Mojang Status -->
+    <string name="title_activity_minecraft_status">Minecraft Status</string>
+
+    <!-- Add Server -->
+    <string name="title_activity_add_server">Add Server</string>
+    <string name="action_save">Save</string>
+
+    <string name="as_info">Server Info</string>
+    <string name="as_name">Server Name</string>
+    <string name="as_name_hint">A friendly name for you to remember this server by</string>
+
+    <string name="as_connection">Server Connection</string>
+    <string name="as_host">Host</string>
+    <string name="as_port">Port</string>
+
+    <string name="as_user">User Info</string>
+    <string name="as_username">Username</string>
+
+</resources>

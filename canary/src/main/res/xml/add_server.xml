@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/as_info">
+
+        <EditTextPreference android:id="@+id/as_name"
+            android:title="@string/as_name"
+            android:hint="@string/as_name_hint" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/as_connection">
+
+        <EditTextPreference android:id="@+id/as_host"
+            android:title="@string/as_host"
+            android:digits="1234567890." />
+
+        <EditTextPreference android:id="@+id/as_port"
+            android:title="@string/as_port"
+            android:digits="1234567890"
+            android:defaultValue="25588"
+            android:summary="25588" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/as_user">
+
+        <EditTextPreference android:id="@+id/as_username"
+            android:title="@string/as_username"
+            android:maxLength="32" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
