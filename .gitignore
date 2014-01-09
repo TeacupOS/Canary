@@ -12,8 +12,12 @@
 bin/
 gen/
 
+# proguard
+proguard-rules.txt
+
 # ignore gradle files
 .gradle/
+/gradle
 build/
 
 # local configuration file (sdk path, etc)
@@ -31,7 +35,7 @@ proguard/
 /nbproject
 
 # IntelliJ
-/*.iml
+*.iml
 /.idea
 
 # various other potential build files
